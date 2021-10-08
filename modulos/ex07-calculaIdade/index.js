@@ -1,5 +1,7 @@
 //7. Solicitar a idade de uma pessoa em dias e informar na tela a idade em anos, meses e dias.
-const idade = (dias) =>  1000 * 60 * 60 * 24 * (dias + 1);
+const idade = (dias) =>  1000 * 60 * 60 * 24 * (dias);
+
+const numeroDiasMesAtual = new Date(datas().ano, datas().mes + 1, 0).getDate(); // total de dias do mes atual
 
 const datas = function (idadeDias) {
   return {
@@ -10,7 +12,6 @@ const datas = function (idadeDias) {
     dia: new Date().getDate(),
   }
 }
-const numeroDiasMesAtual = new Date(datas().ano, datas().mes+1, 0).getDate(); // total de dias do mes atual
 
 const calculaAno = (e) => datas().ano - datas(e).inicial.getFullYear();
 
@@ -24,7 +25,9 @@ const calculaDia = (f) => {
   const diaInicial = new Date(datas().ano, datas().mes - 1, datas(f).inicial.getDate());
   const diaAtual = new Date();
   const diff = diaAtual.getTime() - diaInicial.getTime();
+
   let dias = new Date(diff).getDate();
+
   if (dias === numeroDiasMesAtual) dias = 0;
  
   return dias;
