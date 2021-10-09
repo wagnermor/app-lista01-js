@@ -4,8 +4,14 @@ const circulo = require('./modulos/ex03-circulo');
 const triangulo = require('./modulos/ex04-triangulo');
 const divisao = require('./modulos/ex06-divisao');
 const idade = require('./modulos/ex07-calculaIdade');
+const fahrenheitToCelsius = require('./modulos/ex08-FahrenheitToCelsius');
+const mediaSemestral = require('./modulos/ex11-notaSemestral');
+const metrosPorSegundo = require('./modulos/ex12-velocidade');
 
 console.log(idade(12959));
+console.log(fahrenheitToCelsius(79));
+console.log(mediaSemestral(3,3));
+console.log(metrosPorSegundo(8000));
 
 
 // console.log(triangulo(4).area);
