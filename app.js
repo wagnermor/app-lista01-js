@@ -33,7 +33,7 @@ console.log(modulo(-6));
 console.log(parOuImpar(676447365380));
 console.log(mostraMaior(12,54,8));
 console.log(diasDoMes(2));
-console.log(somaMaiores(1,2,3));
+console.log(somaMaiores(5,8,2));
 
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
