@@ -11,6 +11,11 @@ const calculaSombra = require('./modulos/ex15');
 const inverte = require('./modulos/ex16');
 const gerenciaSaque = require('./modulos/ex17');
 const equacao1Grau = require('./modulos/ex19');
+const entradaMaisDuas = require('./modulos/ex20');
+const positivoOuNegativo = require('./modulos/ex21');
+const modulo = require('./modulos/ex22');
+const parOuImpar = require('./modulos/ex23');
+const mostraMaior = require('./modulos/ex24');
 
 console.log(idade(12959));
 console.log(fahrenheitToCelsius(79));
@@ -19,11 +24,19 @@ console.log(metrosPorSegundo(8000));
 console.log(calculaSombra(185, 80));
 console.log(inverte(123456789));
 console.log(gerenciaSaque(389));
-console.log(equacao1Grau(3,5,20));
+console.log(equacao1Grau(3,-5,20));
+console.log(entradaMaisDuas(302.75));
+console.log(positivoOuNegativo(10));
+console.log(modulo(-6));
+console.log(parOuImpar(676447365380));
+console.log(mostraMaior(12,54,8));
 
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
 console.log([1,2,3,4][1]);
+
+console.log(270 % 3);
+console.log(Math.trunc(302.75 / 3));
 
 
 // console.log(triangulo(4).area);
