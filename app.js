@@ -18,6 +18,9 @@ const parOuImpar = require('./modulos/ex23');
 const mostraMaior = require('./modulos/ex24');
 const diasDoMes = require('./modulos/ex25');
 const somaMaiores = require('./modulos/ex26');
+const mediaPonderada = require('./modulos/ex27');
+const verificaLetra = require('./modulos/ex28');
+const descontoPrevidencia = require('./modulos/ex29');
 
 console.log(idade(12959));
 console.log(fahrenheitToCelsius(79));
@@ -34,6 +37,9 @@ console.log(parOuImpar(676447365380));
 console.log(mostraMaior(12,54,8));
 console.log(diasDoMes(2));
 console.log(somaMaiores(5,8,2));
+console.log(mediaPonderada(8,6,7));
+console.log(verificaLetra("C"));
+console.log(descontoPrevidencia(10000));
 
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
