@@ -16,6 +16,7 @@ const positivoOuNegativo = require('./modulos/ex21');
 const modulo = require('./modulos/ex22');
 const parOuImpar = require('./modulos/ex23');
 const mostraMaior = require('./modulos/ex24');
+const diasDoMes = require('./modulos/ex25');
 
 console.log(idade(12959));
 console.log(fahrenheitToCelsius(79));
@@ -30,7 +31,7 @@ console.log(positivoOuNegativo(10));
 console.log(modulo(-6));
 console.log(parOuImpar(676447365380));
 console.log(mostraMaior(12,54,8));
-
+console.log(diasDoMes(2));
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
 console.log([1,2,3,4][1]);
