@@ -17,6 +17,7 @@ const modulo = require('./modulos/ex22');
 const parOuImpar = require('./modulos/ex23');
 const mostraMaior = require('./modulos/ex24');
 const diasDoMes = require('./modulos/ex25');
+const somaMaiores = require('./modulos/ex26');
 
 console.log(idade(12959));
 console.log(fahrenheitToCelsius(79));
@@ -32,12 +33,11 @@ console.log(modulo(-6));
 console.log(parOuImpar(676447365380));
 console.log(mostraMaior(12,54,8));
 console.log(diasDoMes(2));
+console.log(somaMaiores(1,2,3));
+
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
 console.log([1,2,3,4][1]);
-
-console.log(270 % 3);
-console.log(Math.trunc(302.75 / 3));
 
 
 // console.log(triangulo(4).area);
