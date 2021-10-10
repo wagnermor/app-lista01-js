@@ -10,6 +10,7 @@ const metrosPorSegundo = require('./modulos/ex12-velocidade');
 const calculaSombra = require('./modulos/ex15');
 const inverte = require('./modulos/ex16');
 const gerenciaSaque = require('./modulos/ex17');
+const equacao1Grau = require('./modulos/ex19');
 
 console.log(idade(12959));
 console.log(fahrenheitToCelsius(79));
@@ -18,6 +19,7 @@ console.log(metrosPorSegundo(8000));
 console.log(calculaSombra(185, 80));
 console.log(inverte(123456789));
 console.log(gerenciaSaque(389));
+console.log(equacao1Grau(3,5,20));
 
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
