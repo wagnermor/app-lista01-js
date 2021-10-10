@@ -7,11 +7,16 @@ const idade = require('./modulos/ex07-calculaIdade');
 const fahrenheitToCelsius = require('./modulos/ex08-FahrenheitToCelsius');
 const mediaSemestral = require('./modulos/ex11-notaSemestral');
 const metrosPorSegundo = require('./modulos/ex12-velocidade');
+const inverte = require('./modulos/ex16');
 
 console.log(idade(12959));
 console.log(fahrenheitToCelsius(79));
 console.log(mediaSemestral(3,3));
 console.log(metrosPorSegundo(8000));
+console.log(inverte(123456789));
+const msg = "visite nosso site";
+console.log(msg.split(' ')[msg.search("site")]);
+console.log([1,2,3,4][1]);
 
 
 // console.log(triangulo(4).area);
