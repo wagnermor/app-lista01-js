@@ -36,6 +36,7 @@ const intervaloPar = require('./modulos/ex43');
 const numeroCrescenteSomado = require('./modulos/ex44');
 const media = require('./modulos/ex45');
 const numeroPrimo = require('./modulos/ex48');
+const imprimeCombinacoes = require('./modulos/ex50');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -74,6 +75,8 @@ console.log(`\nex44:`);
 console.log(numeroCrescenteSomado());
 console.log(`\nex45:\n(${media(10, 10, 10, 10)})`);
 console.log(`\nex48:\n${numeroPrimo(3)}`);
+console.log(`\nex50:\n${imprimeCombinacoes()}`);
+console.log(`\nex51:\n`);
 console.log(`\nex50:\n`);
 
 
