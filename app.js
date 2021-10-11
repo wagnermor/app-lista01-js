@@ -37,6 +37,8 @@ const numeroCrescenteSomado = require('./modulos/ex44');
 const media = require('./modulos/ex45');
 const numeroPrimo = require('./modulos/ex48');
 const imprimeCombinacoes = require('./modulos/ex50');
+const escreveFibonacci = require('./modulos/ex51');
+const superavit = require('./modulos/ex53');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -76,8 +78,9 @@ console.log(numeroCrescenteSomado());
 console.log(`\nex45:\n(${media(10, 10, 10, 10)})`);
 console.log(`\nex48:\n${numeroPrimo(3)}`);
 console.log(`\nex50:\n${imprimeCombinacoes()}`);
-console.log(`\nex51:\n`);
-console.log(`\nex50:\n`);
+console.log(`\nex51:\n${escreveFibonacci(9)}`);
+console.log(`\nex53:\n${superavit()}`);
+console.log(`\nex54:\n`);
 
 
 const msg = "visite nosso site";
