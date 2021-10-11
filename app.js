@@ -21,61 +21,62 @@ const somaMaiores = require('./modulos/ex26');
 const mediaPonderada = require('./modulos/ex27');
 const verificaLetra = require('./modulos/ex28');
 const descontoPrevidencia = require('./modulos/ex29');
+const descontoCombustivel = require('./modulos/ex30');
+const quarterbackRating = require('./modulos/ex31');
+const classificaCaracter = require('./modulos/ex32');
+const emprestimo = require('./modulos/ex34');
+const informaDia = require('./modulos/ex35');
+const certificacao = require('./modulos/ex36');
+const pulverizacao = require('./modulos/ex37');
+const bissexto = require('./modulos/ex38');
+const escreveNumero = require('./modulos/ex40');
+const numeroCrescente = require('./modulos/ex41');
+const numeroDecrescente = require('./modulos/ex42');
+const intervaloPar = require('./modulos/ex43');
+const numeroCrescenteSomado = require('./modulos/ex44');
+const media = require('./modulos/ex45');
+const numeroPrimo = require('./modulos/ex48');
 
-console.log(idade(12959));
-console.log(fahrenheitToCelsius(79));
-console.log(mediaSemestral(3,3));
-console.log(metrosPorSegundo(8000));
-console.log(calculaSombra(185, 80));
-console.log(inverte(123456789));
-console.log(gerenciaSaque(389));
-console.log(equacao1Grau(3,-5,20));
-console.log(entradaMaisDuas(302.75));
-console.log(positivoOuNegativo(10));
-console.log(modulo(-6));
-console.log(parOuImpar(676447365380));
-console.log(mostraMaior(12,54,8));
-console.log(diasDoMes(2));
-console.log(somaMaiores(5,8,2));
-console.log(mediaPonderada(8,6,7));
-console.log(verificaLetra("C"));
-console.log(descontoPrevidencia(10000));
+console.log(`ex07:\n${idade(12959)}`);
+console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
+console.log(`\nex11:\n${mediaSemestral(3,3)}`);
+console.log(`\nex12:\n${metrosPorSegundo(8000)}`);
+console.log(`\nex15:\n${calculaSombra(185, 80)}`);
+console.log(`\nex16:\n${inverte(123456789)}`);
+console.log(`\nex17:\n${gerenciaSaque(389)}`);
+console.log(`ex19:\n${equacao1Grau(3,-5,20)}`);
+console.log(`\nex20:\n${entradaMaisDuas(302.75)}`);
+console.log(`ex21:\n${positivoOuNegativo(10)}`);
+console.log(`\nex22:\n${modulo(-6)}`);
+console.log(`\nex23:\n${parOuImpar(676447365380)}`);
+console.log(`\nex24:\n${mostraMaior(12,54,8)}`);
+console.log(`\nex25:\n${diasDoMes(2)}`);
+console.log(`\nex26:\n${somaMaiores(5,8,2)}`);
+console.log(`\nex27:\n${mediaPonderada(8,6,7)}`);
+console.log(`\nex28:\n${verificaLetra("C")}`);
+console.log(`\nex29:\n${descontoPrevidencia(10000)}`);
+console.log(`\nex30:\n${descontoCombustivel(10, "g")}`);
+console.log(`\nex31:\n${quarterbackRating(28, 24, 10, 15, 4)}`);
+console.log(`\nex32:\n${classificaCaracter("@")}`);
+console.log(`\nex34:\n${emprestimo(1000, 12000, 42)}`);
+console.log(`\nex35:\n${informaDia(1)}`);
+console.log(`\nex36:\n${certificacao(70,70,10,70,10)}`);
+console.log(`\nex37:\n${pulverizacao(1,16)}`);
+console.log(`\nex38:\n${bissexto(2006)}`);
+console.log(`\nex40:\n${escreveNumero(2)}`);;
+console.log(`\nex41:`);
+numeroCrescente();
+console.log(`\nex42:`);
+numeroDecrescente();
+console.log(`\nex43:`);
+intervaloPar();
+console.log(`\nex44:`);
+console.log(numeroCrescenteSomado());
+console.log(`\nex45:\n(${media(10, 10, 10, 10)})`);
+console.log(`\nex48:\n${numeroPrimo(3)}`);
+console.log(`\nex50:\n`);
+
 
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
 console.log([1,2,3,4][1]);
-
-
-// console.log(triangulo(4).area);
-// console.log(divisao(-10,-2).quociente);
-// console.log(divisao(10,3).quociente);
-// console.log(divisao(23,8).resto);
-// console.log(divisao(10,3).resto);
-// console.log(divisao(-10,-2).error);
-
-// const atual = {
-//   data: new Date(),
-//   ano: new Date().getFullYear(),
-//   mes: new Date().getMonth(),
-//   dia: new Date().getDate()
-// }
-
-// let d = 1000 * 60 * 60 * 24 * 8;
-// let dInicial =  new Date(Math.abs(atual.data.getTime() - d));
-
-// const ano = new Date().getFullYear();
-// const mes = new Date().getMonth();
-// const diaMes = new Date(ano, mes, 0).getDate();
-
-// console.log(atual.data);
-// console.log(dInicial);
-
-// console.log(atual.ano - new Date(dInicial).getFullYear());
-// console.log(atual.mes - new Date(dInicial).getMonth());
-
-// console.log(Math.abs(atual.dia - diaMes));
-
-// console.log(ano);
-// console.log('================');
-// console.log(dInicial);
-// console.log(dInicial.getDate());
