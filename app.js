@@ -39,6 +39,7 @@ const numeroPrimo = require('./modulos/ex48');
 const imprimeCombinacoes = require('./modulos/ex50');
 const escreveFibonacci = require('./modulos/ex51');
 const superavit = require('./modulos/ex53');
+const numeroTriangular = require('./modulos/ex54');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -80,6 +81,7 @@ console.log(`\nex48:\n${numeroPrimo(3)}`);
 console.log(`\nex50:\n${imprimeCombinacoes()}`);
 console.log(`\nex51:\n${escreveFibonacci(9)}`);
 console.log(`\nex53:\n${superavit()}`);
+console.log(`\nex54:\n${numeroTriangular(1250025000)}`);
 console.log(`\nex54:\n`);
 
 
