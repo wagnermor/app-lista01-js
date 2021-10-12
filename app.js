@@ -40,6 +40,10 @@ const imprimeCombinacoes = require('./modulos/ex50');
 const escreveFibonacci = require('./modulos/ex51');
 const superavit = require('./modulos/ex53');
 const numeroTriangular = require('./modulos/ex54');
+const divisoresProprios = require('./modulos/ex56');
+const goldback = require('./modulos/ex60');
+const criaArray = require('./modulos/ex61');
+const numeroElementosPares = require('./modulos/ex62');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -77,12 +81,18 @@ intervaloPar();
 console.log(`\nex44:`);
 console.log(numeroCrescenteSomado());
 console.log(`\nex45:\n(${media(10, 10, 10, 10)})`);
-console.log(`\nex48:\n${numeroPrimo(3)}`);
+console.log(`\nex48:\n${numeroPrimo.imprimeNumero(473)}`);
 console.log(`\nex50:\n${imprimeCombinacoes()}`);
 console.log(`\nex51:\n${escreveFibonacci(9)}`);
 console.log(`\nex53:\n${superavit()}`);
 console.log(`\nex54:\n${numeroTriangular(1250025000)}`);
-console.log(`\nex54:\n`);
+console.log(`\nex56:\n${divisoresProprios(28)}`);
+console.log(`\nex60:`);
+goldback();
+console.log(`\nex61:`);
+criaArray();
+console.log(`\nex62:\n${numeroElementosPares(10)}`);;
+console.log(`\nex63:`);
 
 
 const msg = "visite nosso site";
