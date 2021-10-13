@@ -44,6 +44,7 @@ const divisoresProprios = require('./modulos/ex56');
 const goldback = require('./modulos/ex60');
 const criaArray = require('./modulos/ex61');
 const numeroElementosPares = require('./modulos/ex62');
+const printSomaVetores = require('./modulos/ex63');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -92,7 +93,7 @@ goldback();
 console.log(`\nex61:`);
 criaArray();
 console.log(`\nex62:\n${numeroElementosPares(10)}`);;
-console.log(`\nex63:`);
+console.log(`\nex63:\n${printSomaVetores([1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10])}`);
 
 
 const msg = "visite nosso site";
