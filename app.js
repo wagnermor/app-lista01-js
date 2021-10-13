@@ -45,6 +45,7 @@ const goldback = require('./modulos/ex60');
 const criaArray = require('./modulos/ex61');
 const numeroElementosPares = require('./modulos/ex62');
 const printSomaVetores = require('./modulos/ex63');
+const arrayMenorMaior = require('./modulos/ex64');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -94,7 +95,7 @@ console.log(`\nex61:`);
 criaArray();
 console.log(`\nex62:\n${numeroElementosPares(10)}`);;
 console.log(`\nex63:\n${printSomaVetores([1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10])}`);
-
+console.log(`\nex64:\n${arrayMenorMaior(7,2,3,1,5,8,9,4,6,15,64,8,-64,1,51,14,12,18,19,20)}`);
 
 const msg = "visite nosso site";
 console.log(msg.split(' ')[msg.search("site")]);
