@@ -102,6 +102,6 @@ console.log(`\nex65:\n${printArrayMenorMaior2(7,2,3,1,5,8,9,4,6,15,64,8,-64,1,51
 console.log(`\nex66:\n${copiaVetor()}`);
 console.log(`\nex67:\n`);
 
-const msg = "visite nosso site";
-console.log(msg.split(' ')[msg.search("site")]);
-console.log([1,2,3,4][1]);
+// const msg = "visite nosso site";
+// console.log(msg.split(' ')[msg.search("site")]);
+// console.log([1,2,3,4][1]);
