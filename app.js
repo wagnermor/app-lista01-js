@@ -49,6 +49,8 @@ const arrayMenorMaior = require('./modulos/ex64');
 const printArrayMenorMaior2 = require('./modulos/ex65');
 const copiaVetor = require('./modulos/ex66');
 const vetores = require('./modulos/ex67');
+// const ... = require('./modulos/ex68');
+const verificaVetor = require('./modulos/ex69');
 
 console.log(`ex07:\n${idade(12959)}`);
 console.log(`\nex08:\n${fahrenheitToCelsius(79)}`);
@@ -102,7 +104,8 @@ console.log(`\nex64:\n${arrayMenorMaior.printArrayMenorMaior(7,2,3,1,5,8,9,4,6,1
 console.log(`\nex65:\n${printArrayMenorMaior2(7,2,3,1,5,8,9,4,6,15,64,8,-64,1,51,14,12,18,19,20)}`);
 console.log(`\nex66:\n${copiaVetor()}`);
 console.log(`\nex67:\n${vetores([9,8,7,6,5,4,3,2,1,0], [99,88,77,66,55,44,33,22,11,01])}`);
-console.log(`\nex67:\n`);
+console.log(`\nex68:\n`);
+console.log(`\nex69:\n${verificaVetor(1,2,3,4,5,6,7,8,9,0,1,2,3,4,5)}`);
 
 // const msg = "visite nosso site";
 // console.log(msg.split(' ')[msg.search("site")]);
